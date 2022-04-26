@@ -1,0 +1,283 @@
+.container-fluid {
+    
+    height: 150px;
+    background-color: #0d6efd;
+    
+}
+.brand-name { 
+    color: rgb(255, 255, 255);
+    font-size: 65px;
+    font-weight: 600;
+}
+.img-fluid {
+    align-items: center;
+    width:200px;
+}
+#story-title {
+    font-family:sans-serif;
+    text-align: center;
+    padding-top: 08px;
+    font-size: 50px;
+}
+
+.navbar-brand{
+    font-family: 'Square Peg', cursive;
+    font-size: 20px; 
+}
+.navlink{
+    
+    font-size: 25px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:rgb(255,255, 255);
+}
+
+
+.heateor_sss_button_instagram span.heateor_sss_svg,
+        a.heateor_sss_instagram span.heateor_sss_svg {
+            background: radial-gradient(circle at 30% 107%, #fdf497 0, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285aeb 90%)
+        }
+
+        .heateor_sss_horizontal_sharing .heateor_sss_svg,
+        .heateor_sss_standard_follow_icons_container .heateor_sss_svg {
+            color: #fff;
+            border-width: 0px;
+            border-style: solid;
+            border-color: transparent;
+        }
+           
+
+            div.heateor_sss_mobile_footer {
+                display: block;
+                height: 40px;
+            }
+
+               
+        @font-face {
+            font-family: 'helveticaregular';
+            src: url(https://storiestogrowby.org/wp-content/plugins/feedburner-alternative-and-rss-redirect/fonts/helvetica_0-webfont.eot);
+            src: url(https://storiestogrowby.org/wp-content/plugins/feedburner-alternative-and-rss-redirect/fonts/helvetica_0-webfont.eot?#iefix) format('embedded-opentype'), url(https://storiestogrowby.org/wp-content/plugins/feedburner-alternative-and-rss-redirect/fonts/helvetica_0-webfont.woff) format('woff'), url(https://storiestogrowby.org/wp-content/plugins/feedburner-alternative-and-rss-redirect/fonts/helvetica_0-webfont.ttf) format('truetype'), url(https://storiestogrowby.org/wp-content/plugins/feedburner-alternative-and-rss-redirect/fonts/helvetica_0-webfont.svg#helveticaregular) format('svg');
+            font-weight: normal;
+            font-style: normal
+        }
+
+        ::-webkit-input-placeholder {
+            color: #383838;
+            opacity: 1;
+            font-size: 18px;
+            font-weight: normal
+        }
+
+        :-moz-placeholder {
+            color: #383838;
+            opacity: 1;
+            font-size: 18px;
+            font-weight: normal
+        }
+
+      
+
+        :-ms-input-placeholder {
+            color: #383838;
+            opacity: 1;
+            font-size: 18px;
+            font-weight: normal
+        }        
+        html,
+        body,
+        div,
+        span,
+        h2,
+        h3,
+        p,
+        a,
+        em,
+        strong
+       
+        {
+            border: 0;
+            font-family: inherit;
+            font-size: 100%;
+            font-style: inherit;
+            font-weight: inherit;
+            margin: 0;
+            outline: 0;
+            padding: 0;
+            vertical-align: baseline
+        }
+
+        html {
+            font-size: 62.5%;
+            overflow-y: scroll;
+            -webkit-text-size-adjust: 100%;
+            -ms-text-size-adjust: 100%
+        }
+
+        
+        a img {
+            border: 0
+        }
+
+        a {
+            color: rgb(255, 255, 255);
+        }
+
+        h2,
+        h3 {
+            font-family: "Georgia", Arial, "Lucida Grande", sans-serif
+        }
+
+        p {
+            margin-bottom: 1.5em
+        }
+
+        strong {
+            font-weight: 700;
+            font-weight: bold
+        }
+
+        em,
+        i {
+            font-style: italic
+        }
+
+        
+
+        .alignleft {
+            display: inline;
+            float: left;
+            margin-right: 1.5em
+        }
+
+        body {
+            background: #dadada
+        }
+
+        #page-wrapper {
+            padding-top: 20px;
+            -ms-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+            width: 1080px;
+            margin: 0 auto
+        }
+
+        .layout-full #page-wrapper {
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            overflow: hidden
+        }
+
+        .layout-full #page-wrapper .full-container {
+            max-width: 1080px;
+            margin-left: auto;
+            margin-right: auto;
+            position: relative
+        }
+        @media (max-width:680px) {
+            body.responsive #masthead .hgroup {
+                text-align: center
+            }
+
+            body.responsive #masthead .hgroup .logo {
+                float: none
+            }
+
+            body.responsive #masthead .hgroup .support-text {
+                position: static;
+                display: block;
+                margin-top: 30px;
+                max-width: 100%
+            }
+
+            body.responsive #primary,
+            body.responsive #secondary {
+                width: auto;
+                float: none
+            }
+
+            body.responsive #secondary {
+                margin-top: 35px
+            }
+        }
+
+        body.responsive #page-wrapper {
+            max-width: 1080px;
+            width: auto;
+            overflow-x: hidden
+        }
+
+        body.responsive.layout-full #page-wrapper {
+            max-width: 100%
+        }
+
+        body.responsive.layout-full #page-wrapper .full-container {
+            max-width: 1080px;
+            margin-left: auto;
+            margin-right: auto
+        }
+
+        .site-content {
+            word-wrap: break-word
+        }
+   
+ /*For browser/screen widths less than 768px*/
+ @media screen and (max-width: 768px) {
+    .container {
+        max-width: 100%;
+    }
+
+    .content {
+        width: 100%;
+    }
+
+}
+
+.stoires h1 {
+    line-height: 1.5em;
+    padding-bottom: 15px;
+
+}
+
+/* footer */
+ #colophon,
+        body.layout-full {
+            
+            height: 95px;
+            padding-bottom: 15px;
+            background-color: #0d6efd
+            
+            
+        }
+
+        #footer-widgets .widget .widget-title {
+            color: #f9f7cc
+        }
+
+        #footer-widgets .widget {
+            color: #f9f7cc
+        }
+
+        #colophon .widget_nav_menu .menu-item a {
+            border-color: #f9f7cc
+        }
+.email {
+    font-size: 20px;
+    color: rgb(255, 255, 255)
+}
+#site-info{
+    
+    text-align: center;
+
+    font-family : sans-serif;    
+    font-size: 17px;
+    color: rgb(255, 255, 255)
+    
+}        
+img{
+    padding-left: 05px !important;
+}
+div{
+    padding-left: 3px;
+}

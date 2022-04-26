@@ -1,0 +1,13 @@
+{
+  "database": {
+    "rules": "paraonrise"
+  },
+  "hosting": {
+    "public": "Y",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
